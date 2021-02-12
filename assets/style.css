@@ -175,17 +175,45 @@
     color: #acacac;
 }
 
-/* Footer */
-.footer{
-    margin-top: 100px;
+/* Feedback */
+.feedback{
+    color: #ffffff;
 }
 
-.footer p{
-    margin-top: 56px;
-    margin-bottom: 56px;
+.feedback .form-group{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.feedback button{
+    margin-bottom: 15px;
+}
+
+.feedback h2{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feedback h3{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.feedback iframe{
+    border-radius: 30px;
+}
+
+/* Footer */
+.footer{
+    padding-top: 20px;
+}
+
+.footer h1{
     font-size: 14px;
     color: #acacac;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Utilities */
@@ -230,6 +258,7 @@
     .testimonial h5{
         font-size: 32px;
     }
+
 }
 
 ::-webkit-scrollbar {
